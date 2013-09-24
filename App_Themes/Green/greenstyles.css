@@ -1,0 +1,318 @@
+﻿body 
+{
+    background-color: #121805;
+    font-family: Arial;
+}
+h1 
+{
+    background-color: #636363;
+    color: White;
+    font-family: Estrangelo Edessa;
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 5px;
+}
+.darkenBackground 
+{
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7; /* Safari, Opera */
+    -mox-opacity:0.70; /* Firefox */
+    filter: alpha(opacity=70); /* IE */
+    z-index: 20;
+    height: 100%;
+    width: 100%;
+    background-repeat: repeat;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+.searchButton 
+{
+    background-color: #D8E7A7;
+}
+.bottomMenu
+{
+    border: 2px solid #3C3C3C;
+    color: #999999;
+    background-color: Black;
+}
+#tabs a:hover
+{
+    color: White;
+    background-color: #666666;
+}
+#mastercontent 
+{
+    /*background-color: #ECEEE7;*/
+    background-image:url('images/texture.png');
+    background-repeat:repeat;
+}
+.fhlinks 
+{
+    color: White;
+    font-size: .9em;
+}
+.flinks, #copyright
+{
+    color: #D8E7A7;
+    text-decoration: none;
+    font-size: smaller;
+    font-size: .7em;
+}
+#tablefooter 
+{
+    font-weight: bold;
+}
+.homelabels 
+{
+    color: White;
+    font-style: italic;
+}
+.textboxdiv1 
+{
+    margin: 0px;
+    padding: 5px;
+    height: 34px;
+    background-repeat: no-repeat;
+    width: 76px;
+    background-image: url('images/controls/textbox1.png');
+}
+.textbox1 
+{
+    background: none;
+    border: 0;
+    margin: 0;
+    height: 8px;
+    width: 45px;
+    padding: 5px 7px 0px 7px;
+}
+.dropdown1 
+{
+    background: none;
+    border: 0;
+    margin: 0;
+    height: 18px;
+    width: 45px;
+    padding: 2px 0px 0px 0px;
+}
+.textboxdiv2 
+{
+    margin: 0px;
+    padding: 5px;
+    height: 34px;
+    background-repeat: no-repeat;
+    width: 133px;
+    background-image: url('images/controls/textbox2.png');
+}
+.textbox2 
+{
+    background: none;
+    border: 0;
+    margin: 0;
+    height: 8px;
+    width: 100px;
+    padding: 5px 7px 0px 7px;
+}
+.textboxdiv2-5 
+{
+    margin: 0px;
+    padding: 5px;
+    height: 34px;
+    background-repeat: no-repeat;
+    width: 202px;
+    background-image: url('images/controls/textbox2-5.png');
+}
+.textbox2-5 
+{
+    background: none;
+    border: 0;
+    margin: 0;
+    height: 8px;
+    width: 169px;
+    padding: 5px 7px 0px 7px;
+}
+.textboxdiv3 
+{
+    margin: 0px;
+    padding: 5px;
+    height: 34px;
+    background-repeat: no-repeat;
+    width: 244px;
+    background-image: url('images/controls/textbox3.png');
+}
+.textbox3 
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    background: none;
+    margin: 0;
+    padding: 2px 7px 0px 7px;
+    width: 200px;
+}
+.textboxdiv3-5 
+{
+    margin: 0px;
+    padding: 5px;
+    height: 34px;
+    background-repeat: no-repeat;
+    width: 310px;
+    background-image: url('images/controls/textbox3-5.png');
+}
+.textbox3-5 
+{
+    background: none;
+    border: 0;
+    margin: 0;
+    height: 8px;
+    width: 280px;
+    padding: 5px 7px 0px 7px;
+}
+.textboxdiv4 
+{
+    margin: 0px;
+    padding: 5px;
+    height: 34px;
+    background-repeat: no-repeat;
+    width: 364px;
+    background-image: url('images/controls/textbox4.png');
+}
+.textbox4 
+{
+    background: none;
+    border: 0;
+    margin: 0;
+    height: 8px;
+    width: 330px;
+    padding: 5px 7px 0px 7px;
+}
+.textboxdiv5 
+{
+    margin: 0px;
+    padding: 5px;
+    height: 34px;
+    background-repeat: no-repeat;
+    width: 532px;
+    background-image: url('images/controls/textbox5.png');
+}
+.textbox5 
+{
+    background: none;
+    border: 0;
+    margin: 0;
+    height: 8px;
+    width: 500px;
+    padding: 5px 7px 0px 7px;
+}   
+.textboxdiv6 
+{
+    margin: 0px;
+    padding: 5px;
+    height: 142px;
+    background-repeat: no-repeat;
+    width: 535px;
+    background-image: url('images/controls/descBox.png');
+}
+.textbox6 
+{
+    background: none;
+    border: 0;
+    margin: 0;
+    height: 115px;
+    width: 500px;
+    padding: 5px 7px 0px 7px;
+}   
+.textboxdiv7 
+{
+    margin: 0px;
+    padding: 5px 5px 15px 5px;
+    height: 383px;
+    background-repeat: no-repeat;
+    width: 516px;
+    background-image: url('images/controls/previewTB.png');
+}
+.textbox7 
+{
+    background: none;
+    border: 0;
+    margin: 25px 0 0px 0px;
+    width: 500px;
+    height: 320px;
+    padding: 5px 7px 5px 7px;
+}   
+.genreDDL, .pagenumDDL 
+{
+    border: none;
+    background-color: #d4dae2;
+    color: #b15214;
+    font-weight: bold;
+    font-size: 1.05em;
+}
+.smallThumb
+{
+    border-style: solid;
+    border-width: 1px 3px 3px 1px;
+    border-color: #000000 #333333 #333333 #000000;
+}
+.smallPrice 
+{
+    text-align: center;
+    color: #333333;
+    font-size: small;
+    font-weight: bolder;
+}
+/* Login page */
+.wizardTB 
+{
+    border: 2px solid black;
+    height: 21px;
+    width: 200px;
+    margin-left: 5px;
+}
+#createUser Label 
+{
+    font-weight: bold;
+    color: #333333;
+    margin-left: 10px;
+}
+/* Member Page */
+#memberBody 
+{
+    background-color: #424341;
+    border-left: 3px solid #1E2124;
+    border-right: 3px solid #1E2124;
+    height: 700px;
+}
+#memberPics 
+{
+    border-left: black medium solid;
+    border-right: black medium solid;
+    border-bottom: black medium solid;
+    background-color: #f2f5f7;
+}
+/* Artists Page */
+.searchBoxDiv, .searchBoxDiv2
+{
+    margin: 0px;
+    padding: 5px;
+    height: 27px;
+    background-repeat: no-repeat;
+    width: 272px;
+    background-image: url('images/controls/searchbar.png');
+}
+.searchBox 
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    background: none;
+    margin-left: 20px;
+    padding: 2px 7px 0px 7px;
+    width: 230px;
+}
+.artistBy 
+{
+    background-color: White;
+    font-size: 18px;
+    border: 1px solid black;
+}

@@ -1,0 +1,249 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+--%>
+ <asp:HyperLink runat="server"      ForeColor="#94CADB" 
+                Font-Underline="false">
+ </asp:HyperLink>
+
+ <asp:HyperLink runat="server"      ForeColor="#17336C" 
+                Font-Underline="false" SkinID="DarkBlueLink">
+ </asp:HyperLink>
+
+  <asp:HyperLink runat="server"      ForeColor="#aa6021" 
+                Font-Underline="false" SkinID="OrangeLink">
+ </asp:HyperLink>
+
+  <asp:HyperLink runat="server"     Font-Size="1.5em"   ForeColor="#94CADB"
+                SkinID="AccountLink">
+ </asp:HyperLink>
+
+ <asp:Label runat="server"     Font-Size="1.5em"   ForeColor="#94CADB"
+                SkinID="AccountLabel">
+ </asp:Label>
+
+ <asp:Label runat="server"     Font-Size="1.6em"   ForeColor="#94CADB"
+                SkinID="LoginHeader">
+ </asp:Label>
+
+
+ <asp:Label     runat="server"      Font-Names="Estrangelo Edessa" 
+                ForeColor="White"   Font-Size="2em" 
+                SkinID="HeaderTitle">
+ </asp:Label>
+
+ <asp:Label     runat="server"      Font-Names="Estrangelo Edessa" 
+                ForeColor="#424341"   Font-Size="2em" 
+                SkinID="NameTitle">
+ </asp:Label>
+
+ <asp:Label     runat="server"      ForeColor="#c26a21"
+                Font-Italic="true"  SkinID="MemberHeader">
+ </asp:Label>
+
+ <asp:Label     runat="server"      ForeColor="#d8e7a7"
+                Font-Size="1.2em"  SkinID="MemberData">
+ </asp:Label>
+
+ <asp:Label     runat="server"      Font-Bold="true" 
+                SkinID="UploadLBL">
+ </asp:Label>
+
+ <asp:Label     runat="server"      Font-Bold="true" 
+                ForeColor="White"   SkinID="BoxHeaderLabel" >
+ </asp:Label>
+
+ <asp:Label     runat="server"      ForeColor="#515a64" 
+                Font-Size="14px"    Font-Bold="true"
+                SkinID="CartSmallLBL">
+ </asp:Label>
+
+ <asp:LinkButton     runat="server" Font-Bold="true" 
+                ForeColor="#17336c" Font-Size="1.5em"
+                Font-Underline="false" SkinID="ArtistNameLink">
+ </asp:LinkButton>
+
+ <asp:LinkButton     runat="server" Font-Bold="true" 
+                ForeColor="#17336c" Font-Underline="false" 
+                 Font-Size="18px"  SkinID="ArtistNameLinkSml">
+ </asp:LinkButton>
+
+ <asp:LinkButton     runat="server"     Font-Underline="false"
+                     Font-Size="1.3em"  ForeColor="#f09d55" 
+                     SkinID="BoldOrange">
+</asp:LinkButton>
+
+ <asp:Label     runat="server"      Font-Bold="true" 
+                ForeColor="White"   SkinID="BoldWhite">
+ </asp:Label>
+
+ <asp:Label     runat="server"      Font-Bold="true" 
+                ForeColor="Black"   SkinID="BoldBlack">
+ </asp:Label>
+
+ <asp:Label     runat="server"      Font-Bold="true"
+                ForeColor="#f09d55" SkinID="BoldOrange">
+</asp:Label>
+
+ <asp:Label     runat="server"      Font-Bold="true" 
+                ForeColor="#17336c" Font-Size="14px" 
+                SkinID="BoldBlue">
+ </asp:Label>
+
+  <asp:Label     runat="server"      Font-Bold="true" 
+                ForeColor="#17336c" Font-Size="16px" 
+                SkinID="BoldBlueBig">
+ </asp:Label>
+
+ <asp:HyperLink     runat="server"     ForeColor="#d8e7a7"
+                Font-Size="1.2em"  SkinID="MemberLink">
+ </asp:HyperLink>
+
+ <asp:TextBox   runat="server"      BackColor="White"   
+                Font-Size="11px"    Height="13px"       
+                SkinID="RoundBox">
+ </asp:TextBox>
+
+ <asp:LoginName runat="server"      ForeColor="White"
+                Font-Size="1.5em"   SkinID="HeaderLogin" />
+
+ <asp:LoginName runat="server"      CssClass="loginName"  
+                ForeColor="White"   Font-Size="1.2em" 
+                SkinID="Login" />
+
+ <asp:RegularExpressionValidator    runat="server"
+                ForeColor="Red"     Font-Size="11px"
+                SkinID="ErrorMessage" />
+
+ <asp:CompareValidator              runat="server"
+                ForeColor="Red"     Font-Size="11px"
+                SkinID="ErrorCompare" />
+
+ <asp:RangeValidator                runat="server"
+                ForeColor="Red"     Font-Size="11px"
+                SkinID="ErrorRange" />
+
+ <asp:RequiredFieldValidator        runat="server"
+                ForeColor="Red"     Font-Size="11px"
+                SkinID="ErrorRequired" />
+
+ <asp:RadioButtonList runat="server" Font-Size="Small">
+ </asp:RadioButtonList>
+
+ <asp:Button    runat="server"      BackColor="#D8E7A7" 
+                Font-Bold="true"    Font-Size="1em" 
+                BorderColor="Black" Width="120px" 
+                Height="35px"       SkinID="UploadBTN" />
+
+<asp:Button    runat="server"      BackColor="#D8E7A7" 
+                Font-Bold="true"    Font-Size="1em" 
+                BorderColor="Black" Width="140px" 
+                Height="35px"       SkinID="PreviewBTN" />
+
+<asp:Button     runat="server"      BackColor="#D8E7A7" 
+                Font-Size="1em"     BorderStyle="solid" 
+                Height="35px"       Width="80px"
+                BorderColor="Black" SkinID="NormalBTN" />
+
+<asp:Button    runat="server"      BackColor="#D8E7A7" 
+                Font-Bold="true"    Font-Size="1em" 
+                BorderColor="Black" Width="200px" 
+                Height="35px"       BorderWidth="3px"
+                SkinID="CartCheckoutBTN" />
+
+<asp:Button    runat="server"      BackColor="#D8E7A7" 
+                Font-Size="1em"    BorderStyle="Solid"
+                BorderColor="Black" Height="35px" 
+                SkinID="SubmissionsBTN" />
+
+<asp:Button    runat="server"       BackColor="#D8E7A7" 
+                Font-Bold="false"   Font-Size="14px" 
+                BorderColor="Black" Width="65px" 
+                Height="35px"       BorderWidth="3px"
+                SkinID="CartBTN" />
+
+<asp:Button    runat="server"       BackColor="#D8E7A7" 
+                Font-Size="12px"    Width="145px"
+                BorderColor="Black"  
+                Height="35px"       BorderWidth="2px"
+                SkinID="FeaturedBTN" />
+
+<asp:Button    runat="server"       BackColor="#D8E7A7" 
+                Font-Size="12px"    Width="105px"
+                BorderColor="Black"  
+                Height="35px"       BorderWidth="2px"
+                SkinID="FeaturedBTN2" />
+
+<asp:LinkButton runat="server"       BackColor="#D8E7A7" 
+                Font-Bold="false"   Font-Size="14px" 
+                BorderColor="Black" Width="65px" 
+                Height="20px"       BorderWidth="2px"
+                SkinID="CartLinkBTN" />
+
+<asp:LinkButton runat="server"      BackColor="#D8E7A7" 
+                Font-Size="1em"     BorderStyle="solid"   
+                BorderColor="Black" ForeColor="Black" 
+                Font-Underline="false" SkinID="NormalLink" />
+
+<asp:LinkButton runat="server"      ForeColor="#94CADB" 
+                Font-Underline="false" SkinID="LtBlueLink" />
+
+<asp:DetailsView runat="server"  Height="50px"   Width="275px" 
+                AutoGenerateRows="False"        BackColor="White"   BorderColor="Black" 
+                Font-Names="Arial"              Font-Bold="true"    Font-Size="Small" 
+                BorderStyle="Solid"             BorderWidth="2px"   CellPadding="6" 
+                GridLines="Horizontal"          SkinID="PurpleDetails">
+                <AlternatingRowStyle            BackColor="#f2f5f7" ForeColor="#333333" />
+                <EditRowStyle    BackColor="#738A9C" Font-Bold="True"   ForeColor="#F7F7F7" />
+                <FooterStyle     BackColor="#B5C7DE" ForeColor="#4A3C8C" />
+                <HeaderStyle     BackColor="#555d68" Font-Bold="False"  ForeColor="#F7F7F7" />
+                <PagerStyle      BackColor="#E7E7FF" ForeColor="#4A3C8C" HorizontalAlign="Right" />
+                <RowStyle BackColor="#c2cbd5" ForeColor="#333333" />
+</asp:DetailsView>
+
+<asp:GridView   runat="server"      AutoGenerateColumns="False" BackColor="White"   
+                BorderColor="Black" BorderStyle="Solid"         BorderWidth="2px" 
+                Font-Names="Arial"  Font-Bold="True"            Font-Size="Small"   
+                CellPadding="6"     GridLines="Horizontal"      SkinID="PurpleGrid">
+                <AlternatingRowStyle BackColor="#f2f5f7" ForeColor="#333333" />
+            
+                <FooterStyle    BackColor="#B5C7DE" ForeColor="#4A3C8C" />
+                <HeaderStyle    BackColor="#555d68" Font-Bold="False"  ForeColor="#F7F7F7" />
+                <PagerStyle     BackColor="#E7E7FF" ForeColor="#4A3C8C" HorizontalAlign="Right" />
+                <RowStyle       BackColor="#c2cbd5" ForeColor="#333333" />
+                <SelectedRowStyle  BackColor="#738A9C" Font-Bold="True" ForeColor="#F7F7F7" />
+                <SortedAscendingCellStyle       BackColor="#F4F4FD" />
+                <SortedAscendingHeaderStyle     BackColor="#5A4C9D" />
+                <SortedDescendingCellStyle      BackColor="#D8D8F0" />
+                <SortedDescendingHeaderStyle    BackColor="#3E3277" />
+</asp:GridView>
+
+<asp:Login  runat="server"      BackColor="#f2f5f7" BorderColor="Black" 
+            BorderPadding="10"  BorderStyle="Solid" BorderWidth="2px"   Font-Names="Arial" 
+            Font-Size="1em"     Font-Bold="true"    ForeColor="#333333" TextLayout="TextOnTop" 
+            Orientation="Horizontal" Width="780px" Height="100px" 
+            PasswordLabelText="Password" UserNameLabelText="User Name" 
+            TitleText="&nbsp;&nbsp;&nbsp;&nbsp;Log In">
+            <CheckBoxStyle Font-Size="0.8em" HorizontalAlign="Left" />
+            <InstructionTextStyle Font-Italic="True" ForeColor="Black" />
+            <LoginButtonStyle BackColor="#d8e7a7" BorderColor="Black" BorderStyle="Solid" 
+                BorderWidth="1px" Font-Names="Arial" Font-Size="1em" ForeColor="Black" />
+            <TextBoxStyle Font-Size="1em" Height="20px" BorderColor="Black" />
+            <TitleTextStyle BackColor="#555d68" Font-Bold="True" Font-Size="1.2em" 
+                ForeColor="White" HorizontalAlign="Left" />
+</asp:Login>
+
+
+
+ 

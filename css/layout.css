@@ -1,0 +1,1304 @@
+﻿
+body {
+}
+
+#container {
+	margin: 0 auto;
+	width: 878px;
+}
+
+#banner
+{
+    position: relative;
+    height: 137px;
+    margin-bottom: 0px;
+}
+#logo, #title, #subtitle, #tabs, .searchText, .searchButton, #menu, .loginName, .avatar,
+.headerLink1, .headerLink2, .headerTitle, .uploadTitle, .genreLabel, .menuLine1, .createin,
+.createin2, .createin3, .createin4, .menuLine2, .priceLabel, .menuLine3, #mainLogin
+{
+    position: absolute;
+    z-index: 2;
+}
+#logo
+{
+    left:28px;
+    top:10px;
+}
+#banBG
+{
+    position: absolute;
+    z-index: 1;
+}
+#mainLogin 
+{
+    top: -10px;
+    right: 40px;
+}
+.loginPic {
+    margin: 0 5px;
+    position: relative;
+    top: 20px;
+}
+.loginStatus {
+    padding: 8px 10px;
+    text-decoration: none;
+}
+#header, #memberHeader 
+{
+    position: relative;
+    /*border: black solid thin;*/
+}
+.avatar 
+{
+    left: 20px;
+    bottom: 10px;
+}
+.loginName 
+{
+    left: 75px;
+    bottom: 20px;
+}
+.headerLink1
+{
+    left: 30px;
+    bottom: 20px;
+    text-decoration: none;
+}
+.headerLink2
+{
+    left: 200px;
+    bottom: 20px;
+    text-decoration: none;
+}
+.uploadTitle 
+{
+    bottom: 10px;
+    right: 40px;
+}
+#menu 
+{
+    right: 10px;
+    top: 15px;
+}
+#title
+{
+    left:126px;
+    top:30px;
+}
+#subtitle
+{
+    left:180px;
+    top:65px;
+}
+#searchbar
+{
+    z-index: 2;
+    left:456px;
+    top:60px;
+}
+.searchBoxDiv2 
+{
+    position: absolute;
+    z-index: 2;
+    left:456px;
+    top:60px;
+}
+#glass 
+{
+    position: absolute;
+    z-index: 3;
+    left:469px;
+    top:59px;
+}
+#tabs 
+{
+    position: absolute;
+    z-index: 3;
+    top: 105px;
+    right: 10px;
+}
+.searchText 
+{
+    left:506px;
+    top:60px;
+    width: 220px;
+    /*width: 272px;*/
+    height: 20px;
+    bottom: 57px;
+}
+.searchButton 
+{
+    left:728px;
+    top:61px;
+    height: 26px;
+}
+.menuitem 
+{
+    margin-right: 2px;
+    margin-left: 2px;
+    text-align: center;
+}
+.bottomMenu 
+{
+    padding: 8px 5px 8px 5px;
+    text-decoration: none;
+}
+#footer
+{
+    position: relative;
+    clear: both;
+}
+#mastercontent 
+{
+    margin-top: 0%;
+    margin-bottom: -2%;
+}
+#tablefooter 
+{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: 2;
+    width: 95%;
+}
+.fhlinks 
+{
+    padding-bottom: 8px;
+}
+#copyright 
+{
+    text-align: right;
+}
+
+/* Home page layout */
+#home_game 
+{
+    padding: 20px 20px 0px 20px;
+}
+#home_hires 
+{
+    padding: 0px 20px 20px 20px;
+}
+.hometable 
+{
+    width: 100%;
+}
+.homecell 
+{
+    position: relative;
+}
+.seeThrough
+{
+    position: relative;
+    z-index: 2;
+    bottom: 33px;
+    left: 0px;
+    border-top: thin solid black;
+}
+.homelabels
+{
+    position: relative;
+    z-index: 3;
+    bottom: 55px;
+    left: 5px;
+    font-weight: bold;
+}
+.categoryLinks 
+{
+    position: relative;
+    color: Navy;
+    font-size: x-small;
+    bottom: 50px;
+    left: 5px;
+    text-decoration: none;
+}
+
+/*Upload Layout */
+.uploadtable, .uploadtable3, #descSection, #modelDetails, #ModelTextures, #uploadModel, .uploadGridView, .previewUpload
+{
+    margin-left: 20px;
+}
+.uploadtable 
+{
+    margin-top: 20px;
+}
+.previewUpload 
+{
+    margin-bottom: 40px;
+}
+.uploadtable2 
+{
+    background: url("../App_Themes/Green/images/gray_on_blue.png") no-repeat;
+    width: 94%;
+}
+.radioList
+{
+    display: inline;
+}
+#uploadModel 
+{
+    background: url("../App_Themes/Green/images/light_blue_bg_sml.png") no-repeat;
+}
+#modelDetails 
+{
+    background: url("../App_Themes/Green/images/light_blue_bg.png") no-repeat;
+}
+#modelDetails table 
+{
+    margin-top: -20px;
+}
+#modelDetails td
+{
+    vertical-align: top;
+}
+.dataList 
+{
+    position: relative;
+    left: 230px;
+}
+.genreDDL 
+{
+    position: relative;
+    z-index: 2;
+    left: -315px;
+    bottom: 12px;
+}
+.categorylbl 
+{
+    position: relative;
+    z-index: 2;
+    left: -330px;
+    bottom: 10px;
+}
+#ModelThumbs 
+{
+    position: relative;
+    margin-left: 20px;
+    height: 260px;
+}
+#ModelTextures 
+{
+    position: relative;
+    margin-left: 20px;
+    height: 260px;
+}
+.addedModels {
+    position: relative;
+    left: 460px;
+    margin-top: -18px;
+    padding-bottom: 20px;
+}
+.removeModel, .removeButton {
+    position: relative;
+    z-index: 2;
+}
+.removeModel {
+    right: 340px;
+    bottom: 15px;
+}
+.removeButton {
+    right: 330px;
+    bottom: 13px;
+}
+.deletePic {
+    z-index: 4;
+    position: relative;
+    top: -95px;
+    left: -20px;
+    margin-right: -25px;
+}
+
+.leftArrow {
+    position: absolute;
+    z-index: 4;
+    bottom: 110px;
+    left: 0px;
+}
+
+.rightArrow {
+    position: absolute;
+    z-index: 4;
+    bottom: 110px;
+    right: 60px;
+}
+
+.picRow td {
+    /*width: 100px;*/
+    padding-left: -30px;
+    z-index: 4;
+    
+}
+
+.picRow {
+    position: relative;
+}
+
+
+/*Preview Page Layout */
+#previewThumbs, #leftTables, .hrline, .moreFrom, .relatedProducts
+{
+    margin: 30px;
+}
+.genreLabel 
+{
+    left: 30px;
+    bottom: 10px;
+}
+.menuLine1 
+{
+    left: 220px;
+    top: 15px;
+}
+.menuLine2 
+{
+    left: 430px;
+    top: 15px;
+}
+.menuLine3 
+{
+    right: 180px;
+    top: 15px;
+}
+.createin 
+{
+    left: 230px; 
+    top: 15px;
+}
+.createin2
+{
+    left: 250px;
+    top: 35px;
+}
+.createin3
+{
+    left: 440px; 
+    top: 15px;
+}
+.createin4
+{
+    left: 455px;
+    top: 35px;
+}
+.priceLabel
+{
+   right: 20px;
+   bottom: 10px; 
+}
+.moreFrom 
+{
+    padding-bottom: 10px;
+}
+#descriptor, .thumbContainer, #previewTables, #leftTables, .moreFrom, #previewControls
+{
+    position: relative;
+}
+.thumbnailLabel
+{
+    position: absolute;
+    right: 0px;
+}
+.previewThumb
+{
+    /*border-style: solid;
+    border-width: 1px 3px 3px 1px;
+    border-color: black #333333 #333333 black;*/
+    position: relative;
+    z-index: 2;
+    left: 5px;
+    bottom: 125px;
+}
+.textboxdiv7
+{
+    position: absolute;
+    left: 325px;
+    top: -10px;
+}
+.previewCart
+{
+    position: relative;
+    left: 30px;
+    bottom: 0px;
+}
+.moreFromLabel 
+{
+    position: relative;
+    top: -60px;
+    left: 10px;
+}  
+.moreFromTable 
+{
+    position: absolute;
+    top: -45px;
+}  
+.previewButtons 
+{
+   position: relative;
+   left: 525px;
+}
+/* Login Page */
+.loginTitle 
+{
+    position: absolute;
+    z-index: 2;
+    left: 20px;
+    bottom: 18px;
+}
+#loginBox, #createUser
+{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.newUserLink 
+{
+    position: absolute;
+    left: 47%;
+}
+.eula 
+{
+    font-size: small;
+}
+/*Profile Page */
+#memberInfo, #paymentInfo, #taxInfo
+{
+   position: relative;
+   left: 60px; 
+   top: 30px;
+   margin-bottom: 60px;
+}
+.memberInfoTable, .memberLabel, .paymentTable, .taxTable
+{
+    position: absolute;
+    z-index: 2;
+}
+.memberLabel 
+{
+    left: 10px;
+    top: 7px;
+}
+.memberInfoTable, .paymentTable, .taxTable
+{
+    top: 45px;
+    left: 10px;
+}
+.saveButton 
+{
+    position: absolute;
+    right: 130px;
+    bottom: -50px;
+}
+.editErrorLabel 
+{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+/* Category.aspx */
+#categoryView, #repeaterContainer, #SortBar, #SortBar2, 
+.sortBy2, .pageCount2, .prevNextButtons2 
+{
+    position: relative;   
+}
+#thumbRepeater, .categoryExt, .prevNextButtons, .filterBTNlabel,
+.filterBTNlabel2
+{
+    position: absolute;
+}
+.categoryHolder 
+{
+    position: relative;
+     z-index: 1;
+}
+#thumbRepeater
+{
+    margin-left: 50px;  
+    margin-top: 50px; 
+}
+#artistTable 
+{
+    float: left;
+    padding: 80px 10px 0px 10px;
+}
+.modelCell 
+{
+    position: relative;
+}
+.categoryPrice 
+{
+    position: absolute;
+    top: -25px;
+    /*left: -60px;*/
+    left: 45px;
+}
+.categoryPreview 
+{
+    position: absolute;
+    color: #d8e7a7;
+    bottom: 10px;
+    /*right: 95px;*/
+    left: 55px;
+    font-size: small;
+}
+.categoryImage 
+{
+    position: absolute;
+    /*padding-left: 6px;
+    padding-top: 6px;*/
+    border: 1px solid black;
+    left: 6px;
+    bottom: 45px;
+}
+.categoryImage, .categoryPrice, .categoryPreview
+{
+    z-index: 2;
+}
+.repTable 
+{
+    width: 680px;    
+}
+.productContainer 
+{
+    width: 660px;
+    position: relative;
+    margin-left: 165px;
+    padding-top: 30px;
+}
+#SortBar 
+{
+    margin-top: 30px;
+}
+#SortBar2 
+{
+    margin-top: 30px;
+    /*margin-bottom: 20px;*/
+    left: 275px;
+}
+.filterbg {
+    position: absolute;
+    bottom: 0px;
+}
+.sortBy, .pageCount, .prevNextButtons
+{
+    z-index: 2;
+    position: absolute;
+    bottom: 5px;
+}
+.sortBy 
+{
+    left: 10px;
+}
+.pageCount 
+{
+    left: 190px;
+}
+.prevNextButtons 
+{
+    right: 120px;
+}
+.sortBy2 
+{
+    top: -25px;
+    left: 10px;
+}
+.pageCount2 
+{
+    top: -47px;
+    left: 191px;
+    display: inline-block;
+}
+.prevNextButtons2 
+{
+    z-index: 2;
+    top: -45px;
+    left: 200px;
+    display: inline-block;
+}
+/* Cart */
+.cartSummary
+{
+    position: relative;   
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.cartUpdateButton 
+{
+    position: absolute;
+    top: 0px;
+    right: 30px;
+}
+.changeQuestion 
+{
+    position: absolute;
+    top: 10px;
+    right: 110px;
+}
+#shoppingCart 
+{
+    margin-left: 30px;   
+    margin-top: 20px;
+    border: black medium solid;
+    width: 790px;
+    background-color: #f2f5f7;
+}
+.checkoutButton 
+{
+    position: relative;
+    left: 620px;
+}
+.cartItem 
+{
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.cartPricetypeLabel 
+{
+    position: relative;
+    left: 110px;
+}
+.cartImage 
+{
+    margin: 10px 10px 10px 0px;
+    border-right: 4px solid gray;
+    border-bottom: 4px solid gray;
+}
+.cartName 
+{
+    position: absolute;
+    top: 30px;
+}
+.cartPriceLabel 
+{
+    position: absolute;
+    left: 315px;
+    top: 30px;
+}
+.cartQuantityLabel 
+{
+    position: absolute;
+    left: 590px;
+    top: 30px;
+}
+.cartExtLabel 
+{
+    position: absolute;
+    top: 55px;
+    left: 85px;
+}
+.cartCreatedLabel 
+{
+    position: absolute;
+    top: 80px;
+    left: 85px;
+}
+.cartCreatorLabel 
+{
+    position: absolute;
+    top: 80px;
+    left: 165px;
+}
+/* Member Page */
+.memberHeader, .userBox, #memberPics, .memberTable 
+{
+    margin-left: 20px;
+}
+.userBox 
+{
+    position: relative;
+    margin-top: 20px;
+}
+.memberName 
+{
+    position: absolute;
+    z-index: 2;
+    left: 75px;
+    bottom: 10px;
+}
+.memberData 
+{
+    padding-left: 25px;
+}
+.memberTable 
+{
+    padding-top: 20px;
+}
+#memberPics 
+{
+    width: 803px;
+}
+.memberHeader2 
+{
+    position: relative;
+    margin-left: 20px;
+}
+.submittedBy, .clickView 
+{
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+}
+.submittedBy 
+{
+    left: 20px;
+}
+.clickView 
+{
+    right: 70px;
+}
+/* Artists Page */
+
+#artistHeader, #artistContainer, .filterbg2, .artistLgMin, .artistRepeaterImage, .artistPrice, .artistPriceSml, .artistPreview, .artistSmMin  
+{
+    position: relative;
+}
+.artistName, .searchBoxDiv, .aSearchButton, .avatarNameBG, .artistDetailsBG, .avatarNameBGSml 
+{
+    position: absolute;
+    z-index: 2;
+    bottom: 10px;
+}
+.artistAvatar, .artistAvatarSml 
+{
+    position: relative;
+    z-index: 2;
+}
+.artistName 
+{
+    left: 20px;
+}
+.searchBoxDiv
+{
+    left: 120px;
+}
+.aSearchButton 
+{
+    left: 392px;
+    bottom: 20px;
+}
+.filterbg2 
+{
+
+}
+#smallArtists 
+{
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+#smallArtistsSml 
+{
+    margin-left: 40px;
+    padding-bottom: 60px;
+}
+.artistAvatar 
+{
+    left: 11px;
+    bottom: 130px;
+    border: 1px solid black;
+}
+.artistAvatarSml 
+{
+    left: 11px;
+    bottom: 57px;
+    border: 1px solid black;
+}
+.artistLgMin
+{
+    margin-bottom: -100px;
+}
+.artistSmMin
+{
+    margin-bottom: -35px;
+}
+.avatarNameBG 
+{
+    left: 135px;
+    bottom: 185px;
+}
+.avatarNameBGSml 
+{
+    left: 60px;
+    bottom: 57px;
+}
+.artistDetailsBG 
+{
+    left: 155px;
+    bottom: 137px;
+}
+.artistDetailsBGSml 
+{
+    right: 50px;
+    bottom: 0px;
+}
+.artistNameLBL, #dateJoined, .dateJoinedLBL, .dateJoinedLBLSml, .dateSubmittedLBL, .artistDetailsBTN, .submissions, 
+.submissionsSml, .seeAllBTN, .seeAllBTNSml, .artistNameLBLSml, .artistDetailsBTNSml, .editBTN, .pubDate, .pubDateLBL
+{
+    position: absolute;
+    z-index: 3;
+}
+.artistDetailsBGSml 
+{
+    position: absolute;
+    z-index: 2;
+}
+.artistNameLBL 
+{
+    bottom: 192px;
+    left: 145px;
+}
+.artistNameLBLSml 
+{
+    bottom: 66px;
+    left: 70px;
+}
+#dateJoined
+{
+    bottom: 192px;
+    right: 120px;
+    font-weight: bold;
+}
+.dateJoinedLBL
+{
+    bottom: 192px;
+    right: 120px;
+    font-weight: bold;
+}
+.dateJoinedLBLSml
+{
+    bottom: 66px;
+    left: 320px;
+}
+.artistDetailsBTN 
+{
+    left: 160px;
+    bottom: 140px;
+}
+.artistDetailsBTNSml 
+{
+    right: 63px;
+    bottom: 60px;
+}
+.submissions
+{
+    left: 250px;
+    bottom: 144px;
+}
+.submissionsSml
+{
+    right: 160px;
+    bottom: 66px;
+}
+.seeAllBTN 
+{
+    right: 63px;
+    bottom: 127px;
+    padding: 6px;
+}
+.seeAllBTNSml 
+{
+    right: 63px;
+    bottom: 2px;
+    padding: 6px;
+}
+.artistRepeaterImage, .artistRepeaterImageSml, .artistPrice, .artistPreview, .artistPriceSml  
+{
+    z-index: 3;
+}
+.artistRepeaterImage 
+{
+    padding-left: 6px;
+    padding-top: 6px;
+    margin-right: -20px;
+    border: 1px solid black;
+}
+.artistRepeaterImageSml 
+{
+    margin-left: -15px;
+    border: 1px solid black;
+}
+.artistPrice 
+{
+    top: 20px;
+    left: -60px;
+}
+.artistPriceSml 
+{
+    top: 20px;
+    left: -70px;
+}
+.artistPreview 
+{
+    color: #d8e7a7;
+    top: 35px;
+    right: 95px;
+    font-size: small;
+}
+.artistHolder 
+{
+    position: absolute;
+    z-index: 2;
+}
+#insideRepeater 
+{
+    position: absolute;
+    left: 265px;
+    bottom: 165px;
+    
+}
+.insideRepeater2 
+{
+    position: absolute;
+    left: 265px;
+    bottom: -37px;
+    z-index: 3;
+}
+.insideSpace 
+{
+    margin-right: -35px;
+}
+.enterArtist 
+{
+    position: absolute;
+    left: 100px;
+}
+/* Featured Page */
+#featuredContainer 
+{
+    position: relative;
+    margin: 20px;
+}
+.featImg, .blueright, .fArtist1, .fArtist2, .fArtist3, .fArtist4 
+{
+    position: absolute;
+    z-index: 2;
+}
+.featuredArtists, .checkoutWeek, .artistBy, .floatingFeatured 
+{
+    position: absolute;
+    z-index: 3;
+}
+.arrow1, .arrow2, .arrow3, .featured1, .featured2, .featured3, .floatName1, .floatName2, 
+.floatName3, .floatButton1, .floatButton2, .floatButton3, .featLine  
+{
+    position: absolute;
+    z-index: 4;
+}
+.seeProfile, .seeProfile2, .seeProfile4, .categoryArtist, .featRepeaterImageSml, .featPriceSml, .featImage, 
+.featPrice
+{
+    position: relative;
+    z-index: 2;
+}
+.seeButton
+{
+    position: absolute;
+    z-index: 2;
+}
+.featImg 
+{
+    left: 25px;
+    top: 15px;
+    border: 1px solid black;
+}
+.blueright 
+{
+    right: 35px;
+    top: 15px;
+}
+.featuredArtists 
+{
+    right: 120px;
+    top: 50px;
+}
+.checkoutWeek 
+{
+    top: 85px;
+    right: 90px;
+}
+.artistBy 
+{
+    right: 42px;
+    top: 120px;
+    padding: 5px 30px 5px 30px;
+    width: 38%;
+    text-align: center;
+}
+.floatingFeatured 
+{
+    right: 0px;
+    top: 175px;
+}
+.arrow1 
+{
+    right: 410px;
+    top: 1px;
+}
+.arrow2 
+{
+    right: 240px;
+    top: 1px;
+}
+.arrow3 
+{
+    right: 70px;
+    top: 1px;
+}
+.featured1 
+{
+    left: 15px;
+    top: 20px;
+}
+.featured2 
+{
+    left: 180px;
+    top: 20px;
+}
+.featured3 
+{
+    left: 340px;
+    top: 20px;
+}
+.floatName1, .floatName2, .floatName3 
+{
+    top: 40px;
+    width: 150px;
+    text-align: center;
+}
+.floatName1 
+{
+    right: 340px;
+}
+.floatName2 
+{
+    right: 180px;
+}
+.floatName3 
+{
+    right: 10px;
+}
+.floatButton1 
+{ 
+    bottom: 10px;
+    left: 10px;
+}
+.floatButton2 
+{ 
+    bottom: 10px;
+    left: 175px;
+}
+.floatButton3
+{
+    bottom: 10px;
+    right: 15px;
+}
+.fArtist1 
+{
+    left: 25px;
+    top: 320px;
+}
+.fArtist2 
+{
+    left: 420px;
+    top: 320px;
+    width: 540px;
+}
+.fArtist3 
+{
+    left: 25px;
+    top: 520px;
+}
+.fArtist4 
+{
+    left: 420px;
+    top: 520px;
+    width: 540px;
+}
+.seeProfile, .seeProfile2, .seeProfile4 
+{
+    color: #d8e7a7;
+    bottom: 10px;
+    font-size: small;
+}
+.seeProfile
+{
+    left: -175px;
+}
+.seeProfile2 
+{
+    left: -160px;
+}
+.seeProfile4 
+{
+    left: -200px;
+}
+.categoryArtist 
+{
+    top: -25px;
+    left: -105px;
+}
+.featLine 
+{
+    top: 495px;
+    left: 30px;
+}
+.featRepeaterImageSml 
+{
+    margin-left: -13px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 3px solid gray;
+    border-bottom: 3px solid gray;
+    right: 115px;
+    bottom: 100px;
+}
+.featPriceSml 
+{
+    bottom: 85px;
+    right: 180px;
+}
+.featImage 
+{
+    padding-left: 6px;
+    padding-top: 6px;
+    margin-bottom: 60px;
+    margin-right: -10px;
+    border: 1px solid black;
+}
+.seeButton 
+{
+    left: 272px;
+    bottom: 23px;
+}
+
+/* Submissin Page */
+.subBy, .subButtonsRight 
+{
+    z-index: 3;
+    position: absolute;
+}
+#SubmissionSec 
+{
+    margin-left: 30px;
+    position: relative;
+    margin-top: 25px;
+}
+.dateSubmittedLBL
+{
+    bottom: 195px;
+    right: 230px;
+}
+.subButtonsRight 
+{
+    z-index: 3;
+    position: absolute;
+    right: 80px;
+    top: 78px;
+}
+.qualityLBL 
+{
+    position: relative;
+    /*top: 140px;*/
+    top: -10px;
+}
+.subButton 
+{
+    margin-left: 5px;
+}
+.subBy 
+{
+    top: 85px;
+    left: 170px;
+}
+.confirmPanel 
+{
+    width: 380px;
+    height: 140px;
+}
+.smallPopup 
+{
+    z-index: 5;
+    position: absolute;
+    top: 30px;
+    left: 230px;
+}
+.sureLBL 
+{
+    top: 20px;
+    left: 50px;
+    text-align: center;
+    position: relative;
+}
+.artistBySub 
+{
+    z-index: 6;
+    position: relative;
+    left: 30px;
+    top: 25px;
+    padding: 5px 0;
+    width: 80%;
+    text-align: center;
+}
+.ApprovedPanel 
+{
+    z-index: 5;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    left: 270px;
+    width: 300px;
+}
+.hasApproved 
+{
+    padding-top: 5px;
+    text-align: center;
+}
+.DeniedPanel 
+{
+    z-index: 5;
+    position: absolute;
+    left: 200px;
+    width: 500px;
+    height: 600px;
+    top: 30px;
+}
+.middleDenied 
+{
+    padding-top: 20px;
+    padding-left: 40px;
+}
+/*My Account Page*/
+#published 
+{
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.editBTN 
+{
+    right: 70px;
+    bottom: 140px;
+}
+.pubDate
+{
+    left: 53%;
+    bottom: 144px;
+}
+.pubArtist
+{
+    left: 5%;
+    bottom: 144px;
+}
+.pubDateLBL 
+{
+    bottom: 192px;
+    left: 50%;
+}
+#published {
+    position: relative;
+}
+.myAccountBTN {
+    position: relative;
+    left: 510px;
+    margin-bottom: 5px;
+}
+
+

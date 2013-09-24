@@ -1,0 +1,212 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageHome.master.cs" Inherits="MasterPageHome" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Scenery Swap</title>
+    <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+	
+	<script src="js/prototype.js" type="text/javascript"></script>
+	<script src="js/scriptaculous.js?load=effects,builder" type="text/javascript"></script>
+	<script src="js/lightbox.js" type="text/javascript"></script>
+
+    <link href="css/layout.css" rel="stylesheet" type="text/css" />
+  
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <form id="form1" runat="server">
+
+        <div id="banner">
+            <div id="banBG"><asp:Image ID="BannerBG" runat="server" ImageUrl="~/App_Themes/Green/images/Banner.png" /></div>
+            <div id="logo"><asp:ImageButton ID="LogoButton" runat="server" 
+                    ImageUrl="~/App_Themes/Green/images/logo.png" ToolTip="Home" 
+                    PostBackUrl="~/Default.aspx" /></div>
+            <div id="title"><asp:Image ID="IMGTitle" runat="server" ImageUrl="~/App_Themes/Green/images/title.png" /></div>
+            <div id="subtitle"><asp:Image ID="IMGsubtitle" runat="server" ImageUrl="~/App_Themes/Green/images/subtitle.png" /></div>
+    
+            <!--<div id="tabs">
+                <asp:LoginName ID="LoginName2" runat="server" ForeColor="White" />
+                <asp:LoginStatus ID="LoginStatus2" runat="server" />
+                <a href="Artists.aspx" class="bottomMenu">Artists</a>
+                <a href="~/temp.aspx" class="bottomMenu">Featured</a>
+                <a href="~/temp.aspx" class="bottomMenu">Game Models</a>
+                <a href="~/temp.aspx" class="bottomMenu">Hi-Res Models</a>
+            </div>-->
+            <div id="mainLogin">
+                <asp:LoginName ID="LoginName1" runat="server" SkinID="HeaderLogin" ForeColor="White" Font-Names="Estrangelo Edessa" />
+                <asp:Image ID="LoginPic" CssClass="loginPic" runat="server" ImageUrl="~/App_Themes/Green/images/avatar_default.png" Width="42" Height="42" />
+                <asp:LoginStatus ID="LoginStatus1" CssClass="loginStatus" runat="server" BackColor="Black" ForeColor="White" LogoutText="Log off" />
+            </div>
+
+            <div id="tabs">
+                <asp:Menu ID="Menu2" runat="server" 
+                    DataSourceID="SiteMapDataSource2" 
+                    DynamicHorizontalOffset="2" Font-Names="Arial" Font-Size="0.95em"
+                    ForeColor="White" Orientation="Horizontal" StaticDisplayLevels="2" 
+                    StaticSubMenuIndent="10px" RenderingMode="Table">
+                    <DynamicHoverStyle BackColor="#151515" ForeColor="#FFFFE1" />
+                    <DynamicMenuItemStyle HorizontalPadding="10px" VerticalPadding="8px" />
+                    <DynamicMenuStyle BackColor="#E3EAEB" />
+                    <DynamicSelectedStyle BackColor="#FFFFE1" ForeColor="Black" />
+                    <StaticHoverStyle BackColor="#666666" ForeColor="White" />
+                    <StaticMenuItemStyle BackColor="Black" HorizontalPadding="10px" VerticalPadding="8px" CssClass="menuitem"/>
+                    <StaticSelectedStyle BackColor="#FFFFE1" ForeColor="Black" />
+                </asp:Menu>
+                <asp:SiteMapDataSource ID="SiteMapDataSource2" runat="server" />
+            </div>
+
+            <!-- menu code -->
+            <!--<div id="menu">
+                <asp:Menu ID="Menu1" runat="server" 
+                    DataSourceID="SiteMapDataSource1" 
+                    DynamicHorizontalOffset="2" Font-Names="Arial" Font-Size=".95em"
+                    ForeColor="#999999" Orientation="Horizontal" StaticDisplayLevels="2" 
+                    StaticSubMenuIndent="10px">
+                    <DynamicHoverStyle BackColor="#151515" ForeColor="#FFFFE1" />
+                    <DynamicMenuItemStyle HorizontalPadding="10px" VerticalPadding="8px" />
+                    <DynamicMenuStyle BackColor="#E3EAEB" />
+                    <DynamicSelectedStyle BackColor="#FFFFE1" ForeColor="Black" />
+                    <StaticHoverStyle BackColor="#666666" ForeColor="White" />
+                    <StaticMenuItemStyle BackColor="Black" HorizontalPadding="10px" VerticalPadding="8px" CssClass="menuitem"/>
+                    <StaticSelectedStyle BackColor="#FFFFE1" ForeColor="Black" />
+                </asp:Menu>
+                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+            </div>-->
+
+            <!-- search engine code -->
+            <asp:Panel ID="Panel1" runat="server" CssClass="searchBoxDiv2" DefaultButton="SearchBTN">
+                <asp:TextBox ID="ArtistSearchTB" CssClass="searchBox" SkinID="RoundBox" runat="server"
+                    MaxLength="50"></asp:TextBox>
+            </asp:Panel>
+            <asp:Button ID="SearchBTN" CssClass = "searchButton" runat="server" 
+                Text="SEARCH 3D ART" BackColor="#D8E7A7" BorderStyle="None" Height="26px" 
+                onclick="SearchBTN_Click" />
+            <div id="searchbar">
+                <!--<script language="JavaScript" type="text/javascript">
+                    function searchRedirect(e) {
+                        var keyPressed;
+                        if (e != null)
+                            keyPressed = (window.event) ? window.event.keyCode : e.which;
+                        if ((e == null) || (keyPressed == 13)) {
+                            searchUrl = "search.aspx?SearchTerm=" +
+                            escape(document.forms[0].SearchTerm.value) + "&SearchType=All";
+                            document.forms[0].disabled = true;
+                            self.location = searchUrl
+                        }
+                    }
+                </script>-->
+                    <!--<input type="text" name="SearchTerm" class="searchText" onkeypress="searchRedirect(event)" />
+                    <input type="submit" value="SEARCH 3D ART" class="searchButton" onclick="searchRedirect(null); return false" />-->
+            </div>
+        </div>
+
+        <div id="mastercontent">
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div id="footer">
+            <div id="banBG2"><asp:Image ID="FooterIMG" runat="server" ImageUrl="~/App_Themes/Green/images/Footer.png" /></div>
+
+            <table id="tablefooter">
+                <tr>
+                    <td class="fhlinks">
+                        About Scenery Swap</td>
+                    <td class="fhlinks">
+                        Supported 3D Formats</td>
+                    <td colspan="2" align="left" class="fhlinks">
+                        Categories</td>
+                    <td class="fhlinks">
+                        Buyers and Sellers</td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="Default.aspx" class="flinks">Contact Us</a></td>
+                    <td>
+                        <a href="Default.aspx" class="flinks">3D Studio Max</a></td>
+                    <td>
+                        <a href="Default.aspx" class="flinks">People</a></td>
+                    <td>
+                        <a href="Default.aspx" class="flinks">Cars</a></td>
+                    <td>
+                        <a href="Default.aspx" class="flinks">Our Artists</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="Default.aspx" class="flinks">Privacy Policy</a></td>
+                    <td>
+                        <a href="Default.aspx" class="flinks">Maya</a></td>
+                    <td>
+                        <a href="Default.aspx" class="flinks">Monsters</a></td>
+                    <td>
+                        <a href="Default.aspx" class="flinks">Transportation</a></td>
+                    <td>
+                        <a href="Default.aspx" class="flinks">Art Submission Guide</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="Default.aspx" class="flinks">About Scenery Swap</a></td>
+                    <td>
+                        <a href="Default.aspx" class="flinks">Softimage</a></td>
+                    <td>
+                        <a href="Default.aspx" class="flinks">Architecture</a></td>
+                    <td>
+                        <a href="Default.aspx" class="flinks">Machines</a></td>
+                    <td>
+                        <a href="Default.aspx" class="flinks">Customers</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="Default.aspx" class="flinks">Advertise</a></td>
+                    <td>
+                        <a href="Default.aspx" class="flinks">Lightwave</a></td>
+                    <td>
+                        <a href="Default.aspx" class="flinks">Nature</a></td>
+                    <td>
+                        <a href="Default.aspx" class="flinks">Furnishings</a></td>
+                    <td>
+                        <a href="Default.aspx" class="flinks">Licensing</a></td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        <a href="Default.aspx" class="flinks">Revit</a></td>
+                    <td>
+                        <a href="Default.aspx" class="flinks">Vehicles</a></td>
+                    <td>
+                        <a href="Default.aspx" class="flinks">Textures</a></td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        <a href="Default.aspx" class="flinks">Photoshop</a></td>
+                    <td>
+                        <a href="Default.aspx" class="flinks">Weapons</a></td>
+                    <td>
+                        &nbsp;</td>
+                    <td>
+                        &nbsp;</td>
+                </tr>
+            </table>
+        </div>
+        </form>
+        <div id="copyright">The contents of this webpage are copyright &copy; 2011 Scenery Swap &reg;.</div>
+    </div>
+</body>
+</html>
